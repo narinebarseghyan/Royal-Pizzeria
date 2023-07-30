@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../img/group-1/background-1.png);
+    background-size: cover;
+}
+.group-1 {
+    width: 100%;
+    /* background-image: url(../img/group-1/back-element-3.png); */
+    background-image: url(../img/group-1/bg/bg-yellow-2.png);
+    background-position: left 0px right 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 75px;
+}
+.group-1-1 {
+    background-image: url(../img/group-1/elements/leaf-001.png),
+    url(../img/group-1/elements/leaf-002.png),
+    url(../img/group-1/elements/leaf-003.png),
+    url(../img/group-1/elements/tomato-001.png),
+    url(../img/group-1/elements/tomato-002.png);
+    background-position: top 83px left 288px,
+    top 163px right 119px,
+    bottom 50px left 770px,
+    bottom 436px left 1px,
+    right 73px bottom 126px;
+    background-repeat: no-repeat;
+}
+.toolbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar img {
+    width: 146px;
+}
+.cont-for-a {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    width: 784px;
+    text-decoration: none;
+}
+.cont-for-a a {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 43px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: 'League Gothic';
+    text-decoration: none;
+}
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 22px;
+}
+.cont-for-button {
+    text-align: center;
+}
+.element1-1 button {
+    text-transform: uppercase;
+    width: 280px;
+    height: 64px;
+    border-radius: 40px;
+    background-color: #d12c30;
+    font-size: 32px;
+    line-height: 59px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Montserrat";
+    text-align: center;
+    border: none;
+    margin-top: 41px;
+} 
+.el-1-1 {
+    text-transform: uppercase;
+    font-size: 114px;
+    letter-spacing: -7px;
+    color: #285f40;
+    font-weight: 400;
+    font-family: 'League Gothic';
+    text-align: center;
+}
+.el-1-2 {
+    font-size: 114px;
+    letter-spacing: -9px;
+    color: #d12c30;
+    font-weight: 400;
+    font-family: 'Yellowtail';
+    text-align: center;
+    text-transform: capitalize;
+    margin: -62px 0;
+    /* display: flex; */
+}
+.splash1 {
+    width: 69px;
+}
+.splash2 {
+    width: 69px;
+    display: inline-block;
+}
+.main-text-1 {
+    width: 440px;
+    font-size: 21px;
+    color: #38302d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: justify;
+    background-color: #ffffff5c;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 2px 3px 15px #142714;
+    margin-top: 23px;
+}
+.div-for-img {
+    text-align: right;
+}
+.el1-2-1 {
+    width: 150px;
+    box-sizing: content-box;
+    animation-name: border;
+    border-radius: 50%;
+    animation-duration: 3s;
+    animation-iteration-count: 4126412988; 
+    border: 3px dashed green;
+}
+.div-for-imp-img {
+    text-align: center;
+}
+@keyframes border {
+    10% {
+        border-left: 3px dashed #0d4e0d;
+    }
+    20% {
+        border-left: 3px dashed #245524;
+        border-top: 3px dashed #0d4e0d;
+    }
+    30% {
+        border-left: 3px dashed #245524;
+        border-top: 3px dashed #0d4e0d;
+        border-right: 3px dashed #328132;
+    }
+    40% {
+        border-left: 3px dashed #245524;
+        border-top: 3px dashed #0d4e0d;
+        border-right: 3px dashed #328132;
+        border-bottom: 3px dashed #6ed926;
+    }
+    50% {
+        border-left: 3px dashed #d91f22;
+        border-top: 3px dashed #0d4e0d;
+        border-right: 3px dashed #328132;
+        border-bottom: 3px dashed #6ed926;
+    }
+    60% {
+        border-left: 3px dashed #d91f22;
+        border-top: 3px dashed #6d1819;
+        border-right: 3px dashed #328132;
+        border-bottom: 3px dashed #6ed926;
+    }
+    70% {
+        border-left: 3px dashed #d91f22;
+        border-top: 3px dashed #6d1819;
+        border-right: 3px dashed #351213;
+        border-bottom: 3px dashed #6ed926;
+    }
+    80% {
+        border-left: 3px dashed #d91f22;
+        border-top: 3px dashed #6d1819;
+        border-right: 3px dashed #351213;
+        border-bottom: 3px dashed rgb(29, 2, 3);
+    }
+    90% {
+        border-left: 3px dashed #7f212341;
+        border-top: 3px dashed #6d181974;
+        border-right: 3px dashed #3512134f;
+        border-bottom: 3px dashed rgba(29, 2, 3, 0.37);
+    }
+    100% {
+        border-left: 3px dashed #7f212319;
+        border-top: 3px dashed #6d181938;
+        border-right: 3px dashed #35121320;
+        border-bottom: 3px dashed rgba(29, 2, 3, 0.17);
+    }
+}
