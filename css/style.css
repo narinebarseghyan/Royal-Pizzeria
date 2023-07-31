@@ -191,3 +191,54 @@ header {
         border-bottom: 3px dashed rgba(29, 2, 3, 0.17);
     }
 }
+/* GROUP 2 */
+.group-2 {
+    padding: 35px 0;
+    background-color: #ffd475;
+}
+.group-2 h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #910000;
+    font-weight: 400;
+    font-family: 'League Gothic';
+    text-decoration: overline;
+    margin-bottom: 11px;
+    text-align: center;
+}
+.group-2 p {
+    font-family: 'PT Serif';
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 5px;
+    max-width: 622px;
+    text-align: justify;
+}
+.container-g-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.cont-img {
+    width: 337px;
+    background-color: #ffffffa8;
+    border-radius: 87px;
+}
+.cont-img img {
+    width: inherit;
+    animation-name: rotating;
+    animation-duration: 45s;
+    animation-iteration-count: 4126412988; 
+}
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.cont-for-text {
+    padding: 44px 0;
+}
