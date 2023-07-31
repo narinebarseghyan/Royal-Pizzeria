@@ -42,14 +42,14 @@ header {
     padding-top: 48px;
     display: flex;
     justify-content: space-between;
-    width: 784px;
+    width: 874px;
     text-decoration: none;
 }
 .cont-for-a a {
     display: block;
     color: white;
     text-transform: uppercase;
-    font-size: 43px;
+    font-size: 35px;
     letter-spacing: 3px;
     font-weight: 400;
     font-family: 'League Gothic';
@@ -242,3 +242,80 @@ header {
 .cont-for-text {
     padding: 44px 0;
 }
+/* GROUP 3 */
+.group-3 {
+    background-image: url(../img/group-3/background-g-2.png);
+    background-repeat: no-repeat;
+}
+.cont-3 {
+    width: 100%;
+    background-image: url(../img/group-3/background-top.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 106px 0 18px 0;
+}
+.pizza3-1 {
+    width: 470px;
+}
+.cont-for-element-3 img {
+    width: 200px;
+}
+.cont3-1 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cont-for-order {
+    padding-top: 35px;
+}
+.cont-for-order p {
+    font-family: 'Montserrat';
+    font-size: 27px;
+}
+.cont-for-order p span {
+    font-family: 'Yellowtail';
+}
+.cont-for-order select, .cont-for-order  textarea, #tel, #name {
+    height: 37px;
+    width: 236px;
+    padding: 0 11px 2px 10px;
+    border-radius: 10px;
+    border: 2px solid #b04b37;
+    font-family: 'Montserrat';
+    margin: 7px 0 7px 7px;
+}
+#tel {
+    letter-spacing: 2px;
+}
+.cont-for-order label {
+    font-family: 'PT Serif';
+    font-weight: bold;
+}
+.in-text{
+    height: 55px !important;
+    max-height: 2500px;
+  overflow-y: auto;
+  resize: vertical;
+  padding: 10px !important;
+  margin-bottom: 15px;
+}
+.cont-for-order button   {
+    font-family: 'PT Serif';
+    height: 42px;
+    width: 178px;
+    border-radius: 12px;
+    font-weight: 700;
+    background: linear-gradient(45deg, transparent, #dd9561, #ef921e);
+    border: 3px dashed #d14e0e;
+    font-size: 17px;
+    margin-top: 11px;
+    text-decoration: none;
+}
+.tel-button {
+    width: 59px !important;
+}
+
+
+
+

@@ -24,6 +24,7 @@
                         <a href="#">about us</a>
                         <a href="#">menu</a>
                         <a href="#">contacts</a>
+                        <a href="#">shopping cart</a>
                     </div>
                 </div>
                 <div class="container-1">
@@ -58,9 +59,7 @@
         </div>
     </header>
     <!-- GROUP 2 -->
-    
-    <div class="group-2">
-        
+    <div class="group-2"> 
         <h2>Why should you visit 'Royal Pizzeria'</h2>
         <div class="container-g-2">
             <div class="cont-for-text">
@@ -88,6 +87,62 @@
             </div>
         </div>
     </div>
-
+    <!-- GROUP 3 -->
+    <div class="group-3">
+        <div class="cont-3">
+            <div class="cont3-1">
+                <div class="cont-img-3">
+                    <img src="./img/group-3/pizza3-1.png" alt="pizza" class="pizza3-1">
+                    <div class="cont-for-element-3">
+                        <img src="./img/group-3/element3-2.png" alt="element">
+                        <img src="./img/group-3/element3-3.png" alt="">
+                    </div>
+                </div>
+                <div class="cont-for-order">
+                    <p>Place your order here and get<br>
+                        <span>15% on your first purchase:</span>
+                    </p>
+                    <form  method="post">
+                        <label for="dough">Choose the type of dough...</label><br>
+                        <select name="type-of-dough" id="dough" required>
+                            <option value="type" hidden>Type of dough</option>
+                            <option value="Classic-Hand-Tossed">Classic Hand-Tossed</option>
+                            <option value="Thin-and-Crispy">Thin and Crispy</option>
+                            <option value="Whole-Wheat">Whole Wheat</option>
+                            <option value="Gluten-Free">Gluten-Free</option>
+                            <option value="Stuffed-Crust">Stuffed Crust</option>
+                            <option value="Cauliflower-Crust">Cauliflower Crust</option>
+                            <option value="Sicilian-Thick-Crust">Sicilian Thick Crust</option>
+                            <option value="Pretzel-Crust">Pretzel Crust</option>
+                            <option value="Pesto-Infused-Dough">Pesto Infused Dough</option>
+                            <option value="Smoked-BBQ-Crust">Smoked BBQ Crust</option>
+                            <option value="Multi-Grain-Dough">Multi-Grain Dough</option>
+                            <option value="Gluten-Free-Cauliflower-Crust">Gluten-Free Cauliflower Crust</option>
+                            <option value="Stuffed-Garlic-Butter-Crust">Stuffed Garlic Butter Crust</option>
+                            <option value="Charcoal-Activated-Dough">Charcoal-Activated Dough</option>-
+                        </select>
+                        <br>
+                        <label for="ingredients">Type ingredients for your pizza...</label><br>
+                        <textarea required class="in-text" id="ingredients" placeholder="Cheese, sauce, mushrooms..."></textarea><br>
+                        <label for="size">Choose size of pizza...</label><br>
+                        <select name="size" id="size" required>
+                            <option value="type" hidden>Size</option>
+                            <option value="7-inch">Personal (7-inch)</option>
+                            <option value="10-inch">Small (10-inch)</option>
+                            <option value="12-inch">Medium (12-inch)</option>
+                            <option value="14-inch">Large (14-inch)</option>
+                            <option value="14-inch">Extra Large (16-inch)</option>
+                        </select><br>
+                        <label for="name">Type here your name</label><br>
+                        <input type="text" minlength="1" maxlength="18" id="name" required><br>
+                        <label for="tel">Type here your phone number</label><br>
+                        <input type="tel" minlength="6" maxlength="12" id="tel" required><br>
+                        <button>Add to cart</button>
+                        <button class="tel-button">&#9743;</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
