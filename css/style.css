@@ -273,6 +273,11 @@ header {
     font-family: 'Montserrat';
     font-size: 27px;
 }
+.info {
+    font-family: 'Montserrat';
+    font-size: 18px !important;
+    width: 403px !important;
+}
 .cont-for-order p span {
     font-family: 'Yellowtail';
 }
@@ -306,7 +311,7 @@ header {
     width: 178px;
     border-radius: 12px;
     font-weight: 700;
-    background: linear-gradient(45deg, transparent, #dd9561, #ef921e);
+    background: linear-gradient(45deg, transparent, #dd9561, transparent, #ef921e);
     border: 3px dashed #d14e0e;
     font-size: 17px;
     margin-top: 11px;
@@ -315,7 +320,36 @@ header {
 .tel-button {
     width: 59px !important;
 }
-
-
+/* GROUP 4 */
+.group-4 {
+    padding: 109px 0;
+    background-color: #b6ba5d;
+    box-shadow: 12px 4px 18px #00800040;
+    box-shadow: 42px -7px 49px #0080009e;
+}
+.cont-for-g-4 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.element4-1 img {
+    width: 500px;
+    border-radius: 30px;
+}
+.element4-2 {
+    padding: 52px 0;
+}
+.element4-2 p, .element4-2 p ul li{
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    color: black;
+    max-width: 535px;
+    margin-bottom: 10px;
+}
+.cont-for-list {
+    padding-left: 70px;
+}
 
 
