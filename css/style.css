@@ -355,9 +355,9 @@ header {
 .group-5 {
     padding: 138px 0;
     background-color: #fbcc8d;
-    background-image: url(../img/group-5/back-img-3.png);
+    background-image: url(../img/group-5/big-back.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .cont-group-5 {
     width: 85%;
@@ -368,10 +368,10 @@ header {
 
 }
 .bicycle {
-    background-color: #f0f0f0;
+    width: 383px;
     position: relative;
     animation-name: folding-bike;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 .cont-pzza-for-bicycle {
@@ -410,7 +410,6 @@ header {
 
 }
 .cont-bicycle {
-    background-color: #f0f0f0;
     height: 235px;
     background-image: url(../img/group-5/before-effects.png);
     background-repeat: no-repeat;
@@ -435,6 +434,76 @@ header {
         transform: rotate(360deg);
     }
 }
+.group-5 h3 {
+    font-family: 'Yellowtail';
+    color: black;
+    text-transform: uppercase;
+    font-size: 37px;
+    letter-spacing: 8px;
+
+}
+.group-5 p {
+    font-family: 'Montserrat';
+    font-size: 21px;
+    padding-left: 26px;
+}
+.group-5 textarea, .group-5 input {
+    background: linear-gradient(45deg,transparent, #ffffff85, transparent, #ffffffb3);
+    border-radius: 15px;
+    border: 2px dashed #d3731d;
+    margin-top: 11px;
+    padding: 7px;
+    font-family: 'Montserrat';
+}
+.group-5 input {
+    width: 252px;
+}
+.cont-group-5 span {
+    color: red;
+    font-family: 700;
+}
+.cont-group-5 h4 {
+    font-family: 'League Gothic';
+    font-size: 31px;
+    letter-spacing: 4px;
+    color: #0b6206;
+    margin: 0 0 15px 0;
+}
+.suggest-cont {
+    padding-left: 55px;
+}
+.cont-for-field {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    margin: auto;
+    background-color: #f0f8ff2e;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px 0 0 0;
+}
+.send-button, .tel2-button {
+    background: linear-gradient(45deg, transparent,  rgba(0, 128, 0, 0.245), transparent,  rgba(0, 128, 0, 0.245));
+    border-radius: 15px;
+    border: 2px dashed rgb(9, 78, 9);
+    height: 36px;
+    font-family: 'PT Serif';
+    letter-spacing: 1px;
+    font-size: 23px;
+    margin-top: 8px;
+}
+.send-button {
+    width: 176px;
+}
+.tel2-button {
+    width: 67px;
+}
+
+
+
+
+
+
 
 
 
