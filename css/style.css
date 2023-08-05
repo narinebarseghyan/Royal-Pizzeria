@@ -351,5 +351,90 @@ header {
 .cont-for-list {
     padding-left: 70px;
 }
+/* GROUP 5 */
+.group-5 {
+    padding: 138px 0;
+    background-color: #fbcc8d;
+    background-image: url(../img/group-5/back-img-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cont-group-5 {
+    width: 85%;
+    margin: auto;
+}
+.bicycle2 {
+    width: 356px;
+
+}
+.bicycle {
+    background-color: #f0f0f0;
+    position: relative;
+    animation-name: folding-bike;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.cont-pzza-for-bicycle {
+    z-index: 3;
+    position: absolute;
+    top: 89px;
+    left: 36px;
+
+}
+.cont-pzza-for-bicycle img {
+    width: 112px;
+    margin-right: 58px;
+    animation-name: bicycle-wheels;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+.cont-for-bicycle-part img {
+    height: 99px;
+
+}
+.cont-for-bicycle-part {
+    z-index: 5;
+    position: absolute;
+    top: 76px;
+    left: 77px;
+}
+.cont-for-bicycle-part-2 {
+    z-index: 6;
+    position: absolute;
+    top: 76px;
+    left: 228px;
+}
+.cont-for-bicycle-part-2 img {
+    height: 82px;
+
+}
+.cont-bicycle {
+    background-color: #f0f0f0;
+    height: 235px;
+    background-image: url(../img/group-5/before-effects.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left 25px;
+}
+@keyframes folding-bike {
+    0% {
+        margin-left: -350px;
+        transform: translateX(0px)
+    }
+    100% {
+        transform: translateX(1500px)
+    }
+}
+/* 377 */
+@keyframes bicycle-wheels {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 
